@@ -1,0 +1,89 @@
+.Preview {
+    margin-top: 50px;
+    width: 800px;
+    min-height: 600px;
+    height: auto !important;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #1d1d1d;
+}
+
+.Preview-Header {
+    color: rgb(173, 173, 173);
+    opacity: 70%;
+    font-size: 23px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.PreviewContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.PreviewContainer .Image {
+    width: 60%;
+    height: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 60%;
+}
+
+.PreviewContainer .Describing-Items {
+    font-size: 23px;
+    width: 40%;
+}
+
+.PreviewContainer .Describing-Items .Title {
+    color: rgb(173, 173, 173);
+    opacity: 70%;
+    padding-top: 20px;
+    height: auto;
+}
+
+.PreviewContainer .Describing-Items .Description {
+    color: rgb(173, 173, 173);
+    opacity: 70%;
+    height: auto;
+}
+
+.PreviewContainer .Describing-Items p {
+    color: white;
+    font-size: 20px;
+}
+
+.Preview .Input textarea {
+    background-color: #383838;
+    color: white;
+    opacity: 50%;
+    border: none;
+    overflow: auto;
+    outline: none;
+    height: 100px;
+    width: 99%;
+}
+
+.Preview .Input button {
+    background-color: #333333;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    overflow: auto;
+    outline: none;
+    color: white;
+    opacity: 60%;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.Preview .Input button:hover {
+    background-color: gray;
+}
+
+.Preview .Input {
+    padding-left: 20px;
+    padding-right: 20px;
+}
